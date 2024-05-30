@@ -1,0 +1,3 @@
+PrincipalCadena01: split
+PrincipalCadena02: substring
+PrincipalCadena03: remplaceAll

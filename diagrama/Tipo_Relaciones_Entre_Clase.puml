@@ -1,0 +1,28 @@
+@startuml
+hide empty methods
+hide members
+Trabajador <|---Secretaria :es
+Trabajador <|---Conserje   :es
+
+Universidad *-- Departamento
+
+Biblioteca o--- Libro
+
+Estudiante . Curso
+
+(Estudiante, Curso) .. Estudiante_x_Curso
+
+Empleado --- Cuenta
+
+Estudiante2 .. Curso2
+Estudiante3 .. Curso2
+Estudiante2 .. Curso3
+Estudiante3 .. Curso3
+Estudiante4 .. Curso2
+Estudiante4 .. Curso3
+
+
+
+
+
+@enduml

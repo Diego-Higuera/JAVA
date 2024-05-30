@@ -1,0 +1,11 @@
+@startuml
+class Alumno {
+-idAlumno:int
+-nombre:String
+-estatura:double
+-edad:int
++esAdulto()
+}
+
+
+@enduml

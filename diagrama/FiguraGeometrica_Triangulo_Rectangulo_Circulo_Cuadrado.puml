@@ -1,0 +1,29 @@
+@startuml
+
+class FiguraGeometrica {
+-nombre:String
++area()
+
+}
+
+class Triangulo {
+-base:double
+-altura:double
+}
+class Rectangulo {
+-ancho:double
+-alto:double
+}
+class Circulo {
+-radio:double
+}
+class Cuadrado {
+-lado:double
+}
+
+FiguraGeometrica <|-- Triangulo
+FiguraGeometrica <|-- Rectangulo
+FiguraGeometrica <|-- Circulo
+FiguraGeometrica <|-- Cuadrado
+
+@enduml
